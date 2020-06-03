@@ -112,6 +112,7 @@ alias zshconfig="mate ~/.zshrc"
 alias ohmyzsh="mate ~/.oh-my-zsh"
 alias ls="lsd"
 alias tree="lsd --tree"
+alias gitjk="history 10 | tac | gitjk_cmd"
 
 source $HOME/.local/bin/virtualenvwrapper.sh
 pfetch
