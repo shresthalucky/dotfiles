@@ -1,16 +1,17 @@
-# If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="/home/lucky/.oh-my-zsh"
+
+# fpath+=$ZSH_CUSTOM/themes/pure
 fpath+=$HOME/.zsh/pure
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-# ZSH_THEME="agnoster"
+#ZSH_THEME="agnoster"
 # ZSH_THEME="typewritten"
+# ZSH_THEME="spaceship"
 ZSH_THEME=""
 
 # TYPEWRITTEN_PROMPT_LAYOUT="multiline"
@@ -75,12 +76,12 @@ ZSH_THEME=""
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 
-# plugins=(archlinux git history web-search zsh-autosuggestions)
-plugins=(archlinux git history web-search)
+plugins=(archlinux git history web-search zsh-autosuggestions)
+#plugins=(archlinux git history web-search)
 
 source $ZSH/oh-my-zsh.sh
 
-export PF_INFO="ascii title os host kernel pkgs uptime"
+# export PF_INFO="ascii title os host kernel pkgs uptime"
 
 autoload -U promptinit; promptinit
 prompt pure
@@ -102,17 +103,67 @@ prompt pure
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
+
+export EDITOR="/usr/bin/vim"
+
+
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-alias zshconfig="mate ~/.zshrc"
-alias ohmyzsh="mate ~/.oh-my-zsh"
+alias zshconfig="vim ~/.zshrc"
+alias ohmyzsh="vim ~/.oh-my-zsh"
 alias ls="lsd"
 alias tree="lsd --tree"
 alias gitjk="history 10 | tac | gitjk_cmd"
 
 source $HOME/.local/bin/virtualenvwrapper.sh
-pfetch
+#pfetch
+
+# eval "$(starship init zsh)"
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+# export SDKMAN_DIR="/home/lucky/.sdkman"
+# [[ -s "/home/lucky/.sdkman/bin/sdkman-init.sh" ]] && source "/home/lucky/.sdkman/bin/sdkman-init.sh"
+
+
+# Just comment a section if you want to disable it
+# SPACESHIP_PROMPT_ORDER=(
+  # time        # Time stamps section (Disabled)
+  # user          # Username section
+  # dir           # Current directory section
+  # host          # Hostname section
+  # git           # Git section (git_branch + git_status)
+  # hg            # Mercurial section (hg_branch  + hg_status)
+  # package     # Package version (Disabled)
+  # node          # Node.js section
+  # ruby          # Ruby section
+  # elixir        # Elixir section
+  # xcode       # Xcode section (Disabled)
+  # swift         # Swift section
+  # golang        # Go section
+  # php           # PHP section
+  # rust          # Rust section
+  # haskell       # Haskell Stack section
+  # julia       # Julia section (Disabled)
+  # docker      # Docker section (Disabled)
+  # aws           # Amazon Web Services section
+  # gcloud        # Google Cloud Platform section
+  # venv          # virtualenv section
+  # conda         # conda virtualenv section
+  # pyenv         # Pyenv section
+  # dotnet        # .NET section
+  # ember       # Ember.js section (Disabled)
+  # kubecontext   # Kubectl context section
+  # terraform     # Terraform workspace section
+  # exec_time     # Execution time
+  # line_sep      # Line break
+  # battery       # Battery level and status
+  # vi_mode     # Vi-mode indicator (Disabled)
+  # jobs          # Background jobs indicator
+  # exit_code     # Exit code section
+  # char          # Prompt character
+# )
+

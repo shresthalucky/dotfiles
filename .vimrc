@@ -23,6 +23,7 @@ Plug 'preservim/nerdtree'
 " Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'ycm-core/YouCompleteMe'
 Plug 'tmhedberg/SimpylFold'
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 
 call plug#end()
 
