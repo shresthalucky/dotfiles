@@ -76,7 +76,7 @@ ZSH_THEME=""
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 
-plugins=(archlinux git history web-search zsh-autosuggestions)
+plugins=(archlinux git history zsh-autosuggestions zsh-syntax-highlighting)
 #plugins=(archlinux git history web-search)
 
 source $ZSH/oh-my-zsh.sh
@@ -119,7 +119,7 @@ alias ls="lsd"
 alias tree="lsd --tree"
 alias gitjk="history 10 | tac | gitjk_cmd"
 
-source $HOME/.local/bin/virtualenvwrapper.sh
+#source $HOME/.local/bin/virtualenvwrapper.sh
 #pfetch
 
 # eval "$(starship init zsh)"

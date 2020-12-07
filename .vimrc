@@ -13,6 +13,12 @@ set laststatus=2
 set colorcolumn=0
 highlight ColorColumn ctermbg=0 guibg=lightgray
 
+if empty(glob('~/.vim/autoload/plug.vim'))
+  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
+    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+endif
+
 call plug#begin('~/.vim/plugged')
 
 Plug 'morhetz/gruvbox'
