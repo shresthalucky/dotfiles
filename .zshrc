@@ -3,16 +3,16 @@
 export ZSH="/home/lucky/.oh-my-zsh"
 
 # fpath+=$ZSH_CUSTOM/themes/pure
-fpath+=$HOME/.zsh/pure
+# fpath+=$HOME/.zsh/pure
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-#ZSH_THEME="agnoster"
+ZSH_THEME="agnoster"
 # ZSH_THEME="typewritten"
 # ZSH_THEME="spaceship"
-ZSH_THEME=""
+#ZSH_THEME=""
 
 # TYPEWRITTEN_PROMPT_LAYOUT="multiline"
 # export TYPEWRITTEN_SYMBOL="►"
@@ -83,8 +83,8 @@ source $ZSH/oh-my-zsh.sh
 
 # export PF_INFO="ascii title os host kernel pkgs uptime"
 
-autoload -U promptinit; promptinit
-prompt pure
+# autoload -U promptinit; promptinit
+# prompt pure
 
 # User configuration
 

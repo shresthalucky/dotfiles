@@ -1,0 +1,27 @@
+"General Settings
+source $HOME/.config/nvim/settings.vim
+
+"Plugins
+source $HOME/.config/nvim/plugins.vim
+
+"set gruvbox theme
+let g:gruvbox_contrast_dark='hard'
+colorscheme gruvbox
+
+"airline
+source $HOME/.config/nvim/airline.vim
+
+"nerdtree
+source $HOME/.config/nvim/nerdtree.vim
+
+"coc extensions
+source $HOME/.config/nvim/coc-extensions.vim
+
+"coc
+source $HOME/.config/nvim/coc.vim
+
+"Mappings
+source $HOME/.config/nvim/mappings.vim
+
+"Functions
+"source $HOME/.config/nvim/functions.vim

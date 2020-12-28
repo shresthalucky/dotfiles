@@ -34,11 +34,11 @@ window:
   # Blank space added around the window in pixels. This padding is scaled
   # by DPI and the specified value is always added at both opposing sides.
   padding:
-    x: 6
-    y: 6
+    x: 0
+    y: 0
 
   # Spread additional padding evenly around the terminal content.
-  #dynamic_padding: false
+  dynamic_padding: true
 
   # Window decorations
   #
@@ -76,7 +76,7 @@ window:
   #
   # Override the variant of the GTK theme. Commonly supported values are `dark` and `light`.
   # Set this to `None` to use the default theme variant.
-  #gtk_theme_variant: None
+  gtk_theme_variant: dark
 
 scrolling:
   # Maximum number of lines in the scrollback buffer.
@@ -184,15 +184,17 @@ font:
   #use_thin_strokes: true
 
 # If `true`, bold text is drawn using the bright color variants.
-#draw_bold_text_with_bright_colors: true
+  draw_bold_text_with_bright_colors: true
 
+# Colors (Gruvbox dark)
 colors:
   # Default colors
   primary:
-    # hard contrast:
-    background : '#1d2021'
-    #background: '#282828'
-    # soft contrast: background = '#32302f'
+    #hard contrast: 
+    background: '#1d2021'
+    # background: '#282828'
+    # soft contrast:
+    # background = '#32302f'
     foreground: '#ebdbb2'
 
   # Normal colors
@@ -216,7 +218,6 @@ colors:
     magenta: '#d3869b'
     cyan:    '#8ec07c'
     white:   '#ebdbb2'
-
 
 #Visual Bell
 #

@@ -11,6 +11,7 @@ set nowrap
 set incsearch
 set laststatus=2
 set colorcolumn=0
+set clipboard=unnamedplus
 highlight ColorColumn ctermbg=0 guibg=lightgray
 
 if empty(glob('~/.vim/autoload/plug.vim'))

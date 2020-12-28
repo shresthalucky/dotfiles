@@ -22,7 +22,6 @@ x-scheme-handler/msteams=teams.desktop
 video/mp4=vlc.desktop
 video/x-matroska=vlc.desktop
 x-scheme-handler/webcal=google-chrome.desktop
-application/x-java-archive=userapp-java -jar-2GR1T0.desktop
 x-scheme-handler/tg=userapp-Telegram Desktop-J3U6U0.desktop
 
 [Added Associations]
@@ -38,7 +37,7 @@ application/xhtml+xml=google-chrome.desktop;
 application/x-extension-xhtml=google-chrome.desktop;
 application/x-extension-xht=google-chrome.desktop;
 image/jpeg=viewnior.desktop;gpicview.desktop;
-image/png=viewnior.desktop;gpicview.desktop;
+image/png=gimp.desktop;viewnior.desktop;gpicview.desktop;
 text/plain=mousepad.desktop;
 message/rfc822=userapp-Thunderbird.desktop;
 application/pdf=epdfview.desktop;
@@ -47,6 +46,19 @@ inode/directory=exo-file-manager.desktop;
 x-scheme-handler/trash=exo-file-manager.desktop;
 video/mp4=vlc.desktop;
 video/x-matroska=vlc.desktop;
-application/x-java-archive=userapp-java -jar-CLZXT0.desktop;userapp-java -jar-2GR1T0.desktop;
 x-scheme-handler/tg=userapp-Telegram Desktop-J3U6U0.desktop;
+application/x-java-archive=java.desktop;
 
+[Removed Associations]
+
+[Desktop Entry]
+Name=Java
+Comment=Java
+GenericName=Java
+Keywords=java
+Exec=java -jar %f
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+MimeType=application/x-java-archive
+StartupNotify=true

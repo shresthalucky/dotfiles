@@ -1,0 +1,16 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": [
+    "json",
+    "javascript",
+    "typscript",
+    "python",
+    "css",
+    "markdown",
+    "yaml"
+  ],
+  "prettier.singleQuote": true,
+  "prettier.semi": true,
+  "prettier.tabWidth": 2,
+  "prettier.arrowParens": "always",
+  "prettier.trailingComma": "none"
+}
