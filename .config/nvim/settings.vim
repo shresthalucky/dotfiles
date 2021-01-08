@@ -1,4 +1,4 @@
-syntax enable				"enable syntax highlighting 
+syntax enable				"enable syntax highlighting
 
 set relativenumber			"set relative line number
 set number
@@ -13,3 +13,5 @@ set expandtab                           " Converts tabs to spaces
 set t_Co=256                            " Support 256 colors
 set background=dark                     " tell vim what the background color looks like
 set encoding=UTF-8
+
+let mapleader = "\<space>"

@@ -1,3 +1,5 @@
 #!/bin/sh
 
-rofi -no-lazy-grab -modi drun -show drun -theme $HOME/.config/polybar/scripts/themes/slate.rasi
+#rofi -no-lazy-grab -modi drun -show drun -theme $HOME/.config/rofi/gruvbox-rofi/gruvbox-dark-hard.rasi
+#rofi -no-lazy-grab -modi drun -show drun -theme $HOME/.config/polybar/scripts/themes/slate.rasi
+rofi -no-lazy-grab -modi window -show
