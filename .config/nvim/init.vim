@@ -6,6 +6,8 @@ source $HOME/.config/nvim/plugins.vim
 
 "set gruvbox theme
 let g:gruvbox_contrast_dark='hard'
+let g:gruvbox_italic=1
+
 colorscheme gruvbox
 
 "airline
@@ -22,6 +24,3 @@ source $HOME/.config/nvim/coc.vim
 
 "Mappings
 source $HOME/.config/nvim/mappings.vim
-
-"Functions
-"source $HOME/.config/nvim/functions.vim

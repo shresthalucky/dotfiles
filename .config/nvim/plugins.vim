@@ -18,8 +18,8 @@ Plug 'preservim/nerdtree'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'scrooloose/nerdcommenter'
 Plug 'tpope/vim-surround'
-Plug 'tpope/vim-obsession'
-"Plug 'ryanoasis/vim-devicons'
+"Plug 'tpope/vim-obsession'
+Plug 'ryanoasis/vim-devicons'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'jiangmiao/auto-pairs'
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
@@ -31,5 +31,15 @@ Plug 'nvim-lua/popup.nvim'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'kyazdani42/nvim-web-devicons'
+Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'pangloss/vim-javascript'
+"Plug 'othree/yajs.vim'
+Plug 'leafgarland/typescript-vim'
+Plug 'MaxMEllon/vim-jsx-pretty'
+"Plug 'HerringtonDarkholme/yats.vim'
+"Plug 'sainnhe/gruvbox-material'
+"Plug 'numirias/semshi', {'do': ':UpdateRemotePlugins'}
 
 call plug#end()
+
+let g:javascript_plugin_jsdoc = 1

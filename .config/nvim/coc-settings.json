@@ -12,5 +12,5 @@
   "prettier.semi": true,
   "prettier.tabWidth": 2,
   "prettier.arrowParens": "always",
-  "prettier.trailingComma": "none"
+  "prettier.trailingComma": "all"
 }
