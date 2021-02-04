@@ -39,7 +39,10 @@ Plug 'MaxMEllon/vim-jsx-pretty'
 "Plug 'HerringtonDarkholme/yats.vim'
 "Plug 'sainnhe/gruvbox-material'
 "Plug 'numirias/semshi', {'do': ':UpdateRemotePlugins'}
+Plug 'matze/vim-move'
+Plug 'vim-python/python-syntax'
 
 call plug#end()
 
 let g:javascript_plugin_jsdoc = 1
+let g:python_highlight_all = 1
