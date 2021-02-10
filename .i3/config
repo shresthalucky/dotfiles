@@ -304,6 +304,9 @@ exec_always --no-startup-id fix_xcursor
 
 exec --no-startup-id libinput-gestures-setup start
 
+# enable touchpad natural scrolling
+exec --no-startup-id xinput set-prop 14 315 1
+
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 #exec --no-startup-id nitrogen --save --set-zoom-fill $HOME/.i3/wallpapers/snow.jpg

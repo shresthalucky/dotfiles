@@ -15,22 +15,21 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'ap/vim-css-color'
 "Plug 'preservim/nerdtree', { 'on': 'NERDTreeToggle' }
 Plug 'preservim/nerdtree'
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+"Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'scrooloose/nerdcommenter'
 Plug 'tpope/vim-surround'
 "Plug 'tpope/vim-obsession'
-Plug 'ryanoasis/vim-devicons'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'jiangmiao/auto-pairs'
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 Plug 'editorconfig/editorconfig-vim'
 Plug 'tpope/vim-fugitive'
 Plug 'easymotion/vim-easymotion'
-Plug 'chrisbra/unicode.vim'
+"Plug 'chrisbra/unicode.vim'
 Plug 'nvim-lua/popup.nvim'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
-Plug 'kyazdani42/nvim-web-devicons'
+"Plug 'kyazdani42/nvim-web-devicons'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'pangloss/vim-javascript'
 "Plug 'othree/yajs.vim'
@@ -41,6 +40,9 @@ Plug 'MaxMEllon/vim-jsx-pretty'
 "Plug 'numirias/semshi', {'do': ':UpdateRemotePlugins'}
 Plug 'matze/vim-move'
 Plug 'vim-python/python-syntax'
+Plug 'neovim/nvim-lspconfig'
+Plug 'nvim-lua/completion-nvim'
+Plug 'ryanoasis/vim-devicons'
 
 call plug#end()
 
