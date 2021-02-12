@@ -167,3 +167,5 @@ alias gitjk="history 10 | tac | gitjk_cmd"
   # char          # Prompt character
 # )
 
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

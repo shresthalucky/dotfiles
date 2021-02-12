@@ -1,4 +1,4 @@
-"General Settings
+
 source $HOME/.config/nvim/settings.vim
 
 "Plugins
@@ -17,16 +17,19 @@ source $HOME/.config/nvim/airline.vim
 source $HOME/.config/nvim/nerdtree.vim
 
 "coc extensions
-"source $HOME/.config/nvim/coc-extensions.vim
+source $HOME/.config/nvim/coc-extensions.vim
 
 "coc
-"source $HOME/.config/nvim/coc.vim
+source $HOME/.config/nvim/coc.vim
 
 "nvim-lspconfig
-source $HOME/.config/nvim/lsp.vim
+"source $HOME/.config/nvim/lsp.vim
 
 "Mappings
 source $HOME/.config/nvim/mappings.vim
 
 "Telescope
-source $HOME/.config/nvim/telescope.vim
+"source $HOME/.config/nvim/telescope.vim
+
+"FZF
+source $HOME/.config/nvim/fzf.vim
