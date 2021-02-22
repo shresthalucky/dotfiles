@@ -34,12 +34,16 @@ set -gx FZF_DEFAULT_COMMAND 'rg --files --no-ignore-vcs --hidden --smart-case'
 set -gx FZF_DEFAULT_OPTS    '--height=50% --min-height=15 --reverse --border'
 set -gx FZF_CTRL_T_COMMAND  $FZF_DEFAULT_COMMAND
 
+# bat as manpager
+set -x MANPAGER "sh -c 'col -bx | bat -l man -p'"
+
 alias ls="lsd"
 alias tree="lsd --tree"
 alias vim="nvim"
 alias vi="nvim"
 alias c="clear"
 alias fonts="kitty + list-fonts --psnames"
+alias cat="bat"
 
 # starship
 starship init fish | source
