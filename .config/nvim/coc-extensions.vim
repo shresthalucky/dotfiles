@@ -7,5 +7,7 @@ let g:coc_global_extensions = [
 \'coc-git',
 \'coc-docker',
 \'coc-fish',
-\'coc-html'
+\'coc-html',
+\'coc-sql',
+\'coc-clangd'
 \]

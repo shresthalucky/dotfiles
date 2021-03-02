@@ -6,7 +6,10 @@
     "python",
     "css",
     "markdown",
-    "yaml"
+    "yaml",
+    "sql",
+    "html",
+    "c"
   ],
   "prettier.singleQuote": true,
   "prettier.semi": true,

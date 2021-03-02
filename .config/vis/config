@@ -11,11 +11,11 @@
 #audio.pulse.source=0
 
 ##Defaults to "/tmp/mpd.fifo"
-mpd.fifo.path=/tmp/mpd.fifo
+#mpd.fifo.path=/tmp/mpd.fifo
 
 ##If set to false the visualizers will use mono mode instead of stereo. Some visualizers will
 ##behave differently when mono is enabled. For example, spectrum show two sets of bars.
-#audio.stereo.enabled=false
+audio.stereo.enabled=true
 
 ##Specifies how often the visualizer will change in seconds. 0 means do not rotate. Default is 0.
 #visualizer.rotation.secs=10

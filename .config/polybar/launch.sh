@@ -14,11 +14,11 @@ while pgrep -u $UID -x polybar >/dev/null; do sleep 1; done
 if type "xrandr"; then
  for m in $(xrandr --query | grep " connected" | cut -d" " -f1); do
    if [ $m == "eDP1" ]; then
-     MONITOR=$m polybar -c ~/.config/polybar/config.ini main &
+     MONITOR=$m polybar -c ~/.config/polybar/config primary &
    else
-     MONITOR=$m polybar -c ~/.config/polybar/config.ini secondary &
+     MONITOR=$m polybar -c ~/.config/polybar/config secondary &
    fi
  done
 else
- polybar -c ~/.config/polybar/config.ini main &
+ polybar -c ~/.config/polybar/config primary &
 fi
