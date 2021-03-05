@@ -20,5 +20,6 @@ set nohlsearch            " Turn of search highlighted matches when done
 set ignorecase            " Ignore case in search patterns
 set smartcase             " Override the 'ignorecase' option if the search pattern contains uppercase characters
 "set signcolumn=yes        " display signs column
+set colorcolumn=80        "set line at column number
 
 let mapleader = "\<space>"

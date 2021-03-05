@@ -4,6 +4,6 @@ command! -bang -nargs=* Rg call fzf#vim#grep
       \.shellescape(<q-args>), 1, {'options': '--delimiter : --nth 4..'}, <bang>0
       \)
 
-nnoremap <silent> <C-f> <cmd>Files<CR>
+nnoremap <silent> <C-p> <cmd>Files<CR>
 nnoremap <silent> <S-f> <cmd>Rg<CR>
 nnoremap <silent> <C-b> <cmd>Buffers<CR>

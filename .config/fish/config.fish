@@ -29,6 +29,12 @@ set -U fish_pager_color_description yellow
 set -U fish_pager_color_prefix      'white' '--bold' '--underline'
 set -U fish_pager_color_progress    'brwhite' '--background=cyan'
 
+# pfetch variables
+# set -gx PF_INFO "ascii title os host kernel uptime pkgs memory"
+set -gx PF_INFO "ascii title os host kernel uptime pkgs de"
+set -gx PF_ASCII "linux"
+# set -gx PF_ALIGN "20"
+
 # FZF exports
 set -gx FZF_DEFAULT_COMMAND 'rg --files --no-ignore-vcs --hidden --smart-case'
 set -gx FZF_DEFAULT_OPTS    '--height=50% --min-height=15 --reverse --border'
@@ -44,6 +50,7 @@ alias vi="nvim"
 alias c="clear"
 alias fonts="kitty + list-fonts --psnames"
 alias cat="bat"
+alias nc="ncmpcpp"
 
 # starship
 starship init fish | source

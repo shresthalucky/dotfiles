@@ -5,10 +5,13 @@
 "nnoremap <C-H> <C-W><C-H>
 
 " Moving around between panes
-nnoremap <C-J> <cmd>tabprevious<cr>
-nnoremap <C-K> <cmd>tabnext<cr>
+"nnoremap <C-J> <cmd>tabprevious<cr>
+"nnoremap <C-K> <cmd>tabnext<cr>
 "nnoremap <C-L> <C-W><C-L>
 "nnoremap <C-H> <C-W><C-H>
+
+nnoremap <C-k> 5k
+nnoremap <C-j> 5j
 
 " Insert line above or below current line
 nmap <Leader><CR> O<Esc>
@@ -36,3 +39,9 @@ nmap <Leader>L <Plug>(easymotion-overwin-line)
 " Move to word
 map  <Leader>w <Plug>(easymotion-bd-w)
 nmap <Leader>w <Plug>(easymotion-overwin-w)
+
+" Git Fugitive
+nmap <Leader>gs :Gstatus<CR>
+nmap dv :Gvdiff!<CR>
+nmap gf :diffget //2<CR>
+nmap gj :diffget //3<CR>

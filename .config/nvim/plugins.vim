@@ -48,5 +48,8 @@ Plug 'junegunn/fzf.vim'
 
 call plug#end()
 
+let g:NERDSpaceDelims = 1
+let g:NERDTrimTrailingWhitespace = 1
+
 let g:javascript_plugin_jsdoc = 1
 let g:python_highlight_all = 1
