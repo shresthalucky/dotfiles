@@ -1,9 +1,11 @@
 #!/usr/bin/env sh
+
+# Unmount and power off disk
+
 #sync && udisksctl unmount -b /dev/sdb1 && udisksctl power-off -b /dev/sdb1
 sync;
 lsblk;
-echo "which disk /dev/?"
-read disk
+read -p "which disk /dev/? " disk
 udisksctl unmount -b /dev/$disk;
 if [ $? -eq 0 ]; then
    udisksctl power-off -b /dev/$disk

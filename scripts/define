@@ -1,0 +1,85 @@
+#!/usr/bin/env python
+
+import sys
+import requests
+import argparse
+
+from rich.theme import Theme
+from rich.table import Table
+from rich.console import Console
+
+my_theme = Theme({
+  "title": "bold yellow",
+  "headers": "bold cyan",
+})
+
+endpoint = "https://api.dictionaryapi.dev/api/v2/entries/en_US/"
+console = Console(color_system="auto", theme=my_theme)
+
+def format_response(response: dict, example: bool, speech: bool):
+
+    if not response:
+      return "Definition not found"
+
+    word = response["word"]
+    meanings = response["meanings"]
+
+    headers = ["Definition"]
+
+    if speech:
+        headers.append("Part of Speech")
+
+    if example:
+        headers.append("Example")
+
+    table = Table(*headers,
+                  title=word,
+                  title_style="title",
+                  header_style="headers")
+
+    for meaning in meanings:
+      for definition in meaning["definitions"]:
+          row = [definition["definition"]]
+
+          if speech:
+              row.append(meaning["partOfSpeech"])
+
+          if example:
+              row.append(definition["example"])
+
+          table.add_row(*row)
+
+    return table
+
+
+def fetch_def(word: str):
+    url = "{}{}".format(endpoint, word)
+    response = requests.get(url)
+
+    if response.status_code == 200:
+      return response.json()[0]
+
+    return {}
+
+
+def parse_arguments():
+    parser = argparse.ArgumentParser(description="Define word(s) for you")
+    parser.add_argument("words", type=str, help="Word(s) to define", nargs="+")
+    parser.add_argument("-e", "--example", help="Show examples for word(s)",
+                        action="store_true")
+    parser.add_argument("-s", "--speech",
+                        help="Show Part of Speech for word(s)",
+                        action="store_true")
+
+    return parser.parse_args()
+
+
+if __name__ == '__main__':
+    args = parse_arguments()
+
+    for word in args.words:
+        response = fetch_def(word)
+        table = format_response(response=response,
+                                example=args.example,
+                                speech=args.speech)
+        console.print(table)

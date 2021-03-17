@@ -45,7 +45,11 @@ Plug 'vim-python/python-syntax'
 Plug 'ryanoasis/vim-devicons'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
-
+Plug 'Yggdroot/indentLine'
+Plug 'heavenshell/vim-jsdoc', {
+  \ 'for': ['javascript', 'javascript.jsx','typescript'],
+  \ 'do': 'make install'
+\}
 call plug#end()
 
 let g:NERDSpaceDelims = 1
