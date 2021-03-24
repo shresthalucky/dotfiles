@@ -3,11 +3,13 @@
 # Unmount and power off disk
 
 #sync && udisksctl unmount -b /dev/sdb1 && udisksctl power-off -b /dev/sdb1
+
 sync;
-lsblk;
-read -p "which disk /dev/? " disk
-udisksctl unmount -b /dev/$disk;
+disk=$(df -H | sed 1d | eval "fzf $FZF_DEFAULT_OPTS" | awk '{print $1}')
+udisksctl unmount -b $disk;
 if [ $? -eq 0 ]; then
-   udisksctl power-off -b /dev/$disk
-   echo "$disk power off"
+  udisksctl power-off -b $disk
+  if [ $? -eq 0 ]; then
+    echo "$disk power off"
+  fi
 fi

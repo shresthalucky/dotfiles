@@ -36,15 +36,15 @@ audio.stereo.enabled=true
 
 ##Configures what character the spectrum visualizer will use. Specifying a space (e.g " ") means the
 ##background will be colored instead of the character. Defaults to " ".
-#visualizer.spectrum.character=█
-visualizer.spectrum.character=•
+visualizer.spectrum.character=█
+# visualizer.spectrum.character=•
 
 ##Spectrum bar width. Defaults to 2.
 visualizer.spectrum.bar.width=1
 
 ##The amount of space between each bar in the spectrum visualizer. Defaults to 1. It's possible to set this to
 ##zero to have no space between bars
-#visualizer.spectrum.bar.spacing=1
+#visualizer.spectrum.bar.spacing=0
 
 ##Available smoothing options are monstercat, sgs, none.
 #visualizer.spectrum.smoothing.mode=sgs
@@ -89,4 +89,5 @@ visualizer.spectrum.bar.width=1
 #colors.override.terminal=false
 
 ##Specifies the color scheme. The color scheme must be in ~/.config/vis/colors/ directory. The default scheme is "colors".
-colors.scheme=rainbow
+# colors.scheme=rainbow
+colors.scheme=gruvbox

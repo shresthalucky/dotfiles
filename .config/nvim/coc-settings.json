@@ -1,6 +1,8 @@
 {
   "coc.preferences.formatOnSaveFiletypes": [
     "json",
+    "c",
+    "java",
     "javascript",
     "typscript",
     "python",
@@ -8,8 +10,7 @@
     "markdown",
     "yaml",
     "sql",
-    "html",
-    "c"
+    "html"
   ],
   "prettier.singleQuote": true,
   "prettier.semi": true,
