@@ -1,8 +1,10 @@
+cbonsai
 cli-visualizer
 datagrip
 google-chrome
-gotop
+grub-customizer
 gruvbox-material-gtk-theme-git
+linux-latest
 mopidy-mpd
 mopidy-spotify
 neovim-nightly-bin

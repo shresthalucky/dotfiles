@@ -21,6 +21,7 @@ blueman
 bluez-utils
 bmenu
 brave
+bspwm
 btrfs-progs
 bzip2
 cantarell-fonts
@@ -39,7 +40,6 @@ dfc
 dhclient
 dhcpcd
 diffutils
-discord
 dmidecode
 dmraid
 dnsmasq
@@ -78,7 +78,6 @@ gnome-keyring
 gparted
 grep
 grub
-grub-customizer
 grub-theme-manjaro-dev
 gst-libav
 gst-plugins-bad
@@ -103,6 +102,7 @@ intel-ucode
 inxi
 iproute2
 iputils
+jdk11-openjdk
 jfsutils
 jre11-openjdk
 kitty
@@ -125,7 +125,6 @@ licenses
 lightdm-gtk-greeter-settings
 lightdm-settings
 lightdm-slick-greeter
-linux-latest
 linux510
 linux54
 logrotate
@@ -188,6 +187,8 @@ npm
 nss-mdns
 ntfs-3g
 ntp
+openjdk11-doc
+openjdk11-src
 openresolv
 openssh
 os-prober
@@ -235,6 +236,7 @@ speedtest-cli
 stacer
 subversion
 sudo
+sxhkd
 sysfsutils
 syslog-ng
 systemd
