@@ -2,6 +2,15 @@
 # wm independent hotkeys
 #
 
+super + Escape
+  $HOME/scripts/powermenu.sh
+
+Print
+  flameshot gui
+
+super + ctrl + m
+  pauvcontrol
+
 # terminal emulator
 super + Return
 	kitty
