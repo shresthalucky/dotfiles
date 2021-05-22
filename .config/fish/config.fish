@@ -36,7 +36,7 @@ set -gx PF_ASCII "linux"
 # set -gx PF_ALIGN "20"
 
 # FZF exports
-set -gx FZF_DEFAULT_COMMAND 'rg --files --no-ignore-vcs --hidden --smart-case'
+set -gx FZF_DEFAULT_COMMAND 'rg --files --no-ignore-vcs --fixed-strings --hidden --smart-case --glob "!{node_modules/*,.git/*}"'
 set -gx FZF_DEFAULT_OPTS    '--height=50% --min-height=15 --reverse --border'
 set -gx FZF_CTRL_T_COMMAND  $FZF_DEFAULT_COMMAND
 
