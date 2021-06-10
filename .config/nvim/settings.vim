@@ -23,3 +23,8 @@ set smartcase             " Override the 'ignorecase' option if the search patte
 set colorcolumn=80        "set line at column number
 
 let mapleader = "\<space>"
+
+augroup Wrap
+    autocmd!
+    autocmd FileType markdown set wrap
+augroup END

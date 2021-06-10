@@ -59,10 +59,10 @@ bindsym $mod+Ctrl+m exec pavucontrol
 # bindsym XF86MonBrightnessDown exec "xbacklight -dec 10; notify-send 'brightness down'"
 
 # Media controls
-bindsym XF86AudioPrev exec $HOME/.local/bin/song_control prev
-bindsym XF86AudioPause exec $HOME/.local/bin/song_control pause
-bindsym XF86AudioPlay exec $HOME/.local/bin/song_control play
-bindsym XF86AudioNext exec $HOME/.local/bin/song_control next
+bindsym XF86AudioPrev exec playerctl previous
+bindsym XF86AudioPause exec playerctl pause
+bindsym XF86AudioPlay exec playerctl play
+bindsym XF86AudioNext exec playerctl next
 
 # Start Applications
 bindsym $mod+Ctrl+b exec kitty -e 'bmenu'
@@ -315,7 +315,8 @@ exec_always --no-startup-id fix_xcursor
 exec --no-startup-id libinput-gestures-setup start
 
 # enable touchpad natural scrolling
-exec --no-startup-id xinput set-prop 14 315 1
+# exec --no-startup-id xinput set-prop 14 315 1
+exec --no-startup-id xinput set-prop "DLLC6B2:00 06CB:75BF Touchpad" "libinput Natural Scrolling Enabled" 1
 
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 

@@ -57,3 +57,5 @@ let g:NERDTrimTrailingWhitespace = 1
 
 let g:javascript_plugin_jsdoc = 1
 let g:python_highlight_all = 1
+
+let g:indentLine_setConceal = 0

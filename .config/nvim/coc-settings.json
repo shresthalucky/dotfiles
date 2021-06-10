@@ -11,7 +11,10 @@
     "markdown",
     "yaml",
     "sql",
-    "html"
+    "html",
+    "ts",
+    "jsx",
+    "tsx"
   ],
   "prettier.singleQuote": true,
   "prettier.semi": true,

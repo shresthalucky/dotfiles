@@ -13,6 +13,30 @@
 nnoremap <C-k> 5k
 nnoremap <C-j> 5j
 
+" Moving around buffers
+nnoremap <C-h> <cmd>bprev<cr>
+nnoremap <C-l> <cmd>bnext<cr>
+nnoremap <C-q> <cmd>bd<cr>
+
+" delete and paste simplified
+nnoremap x "_x
+nnoremap X "_X
+nnoremap d "_d
+nnoremap D "_D
+vnoremap d "_d
+
+if has('unnamedplus')
+  set clipboard=unnamed,unnamedplus
+  nnoremap <leader>d "+d
+  nnoremap <leader>D "+D
+  vnoremap <leader>d "+d
+else
+  set clipboard=unnamed
+  nnoremap <leader>d "*d
+  nnoremap <leader>D "*D
+  vnoremap <leader>d "*d
+endif
+
 " Insert line above or below current line
 nmap <Leader><CR> O<Esc>
 nmap <CR> o<Esc>
