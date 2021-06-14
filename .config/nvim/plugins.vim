@@ -31,9 +31,9 @@ Plug 'easymotion/vim-easymotion'
 "Plug 'nvim-telescope/telescope.nvim'
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'Xuyuanp/nerdtree-git-plugin'
-Plug 'pangloss/vim-javascript'
+" Plug 'pangloss/vim-javascript'
 "Plug 'othree/yajs.vim'
-Plug 'leafgarland/typescript-vim'
+" Plug 'leafgarland/typescript-vim'
 Plug 'MaxMEllon/vim-jsx-pretty'
 "Plug 'HerringtonDarkholme/yats.vim'
 "Plug 'sainnhe/gruvbox-material'
@@ -50,12 +50,23 @@ Plug 'heavenshell/vim-jsdoc', {
   \ 'for': ['javascript', 'javascript.jsx','typescript'],
   \ 'do': 'make install'
 \}
+" Plug 'sheerun/vim-polyglot'
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 call plug#end()
 
 let g:NERDSpaceDelims = 1
 let g:NERDTrimTrailingWhitespace = 1
 
-let g:javascript_plugin_jsdoc = 1
+" let g:javascript_plugin_jsdoc = 1
 let g:python_highlight_all = 1
 
-let g:indentLine_setConceal = 0
+let g:vim_json_syntax_conceal = 0
+
+lua <<EOF
+require'nvim-treesitter.configs'.setup {
+  ensure_installed = "maintained", -- one of "all", "maintained" (parsers with maintainers), or a list of languages
+  highlight = {
+    enable = true,              -- false will disable the whole extension
+  },
+}
+EOF

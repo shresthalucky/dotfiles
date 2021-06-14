@@ -12,9 +12,8 @@
     "yaml",
     "sql",
     "html",
-    "ts",
-    "jsx",
-    "tsx"
+    "javascriptreact",
+    "typescriptreact"
   ],
   "prettier.singleQuote": true,
   "prettier.semi": true,
