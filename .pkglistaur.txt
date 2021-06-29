@@ -1,10 +1,13 @@
+audio-recorder
 cbonsai
 cli-visualizer
-datagrip
 google-chrome
 grub-customizer
 gruvbox-material-gtk-theme-git
+leap-motion-driver
+leap-motion-sdk
 linux-latest
+mongodb-bin
 mopidy-mpd
 mopidy-spotify
 neovim-nightly-bin
@@ -19,5 +22,6 @@ spotify
 stremio
 teams
 ttf-scientifica
+viber
 visual-studio-code-bin
 zoom

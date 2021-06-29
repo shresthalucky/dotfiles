@@ -4,10 +4,13 @@ acpid
 alsa-firmware
 alsa-plugins
 alsa-utils
+android-tools
+android-udev
 apparmor
 arandr
 aria2
 artwork-i3
+at
 autoconf
 automake
 avahi
@@ -35,6 +38,7 @@ crda
 cronie
 cryptsetup
 deluge
+deluge-gtk
 device-mapper
 dfc
 dhclient
@@ -54,6 +58,7 @@ exfat-utils
 f2fs-tools
 fakeroot
 fd
+feh
 ffmpeg
 ffmpegthumbnailer
 file
@@ -64,6 +69,7 @@ fish
 flac
 flameshot
 flex
+foliate
 fortune-mod
 gawk
 gcc
@@ -75,6 +81,9 @@ gimp
 git
 glibc
 gnome-keyring
+gnu-netcat
+go
+google-glog
 gparted
 grep
 grub
@@ -97,6 +106,7 @@ gvfs-smb
 gzip
 hexchat
 htop
+httpie
 inetutils
 intel-ucode
 inxi
@@ -126,6 +136,7 @@ lightdm-gtk-greeter-settings
 lightdm-settings
 lightdm-slick-greeter
 linux510
+linux510-headers
 linux54
 logrotate
 lsd
@@ -182,8 +193,8 @@ networkmanager-openvpn
 networkmanager-pptp
 networkmanager-vpnc
 nfs-utils
+nmap
 noto-fonts-emoji
-npm
 nss-mdns
 ntfs-3g
 ntp
@@ -202,6 +213,7 @@ pciutils
 pcmanfm
 perl
 perl-file-mimeinfo
+pigz
 pkgconf
 playerctl
 polkit-gnome
@@ -215,6 +227,7 @@ pulseaudio
 pulseaudio-bluetooth
 qt5-styleplugins
 qt5ct
+qt6-base
 qutebrowser
 ranger
 redshift
@@ -224,6 +237,7 @@ rofi
 rofimoji
 rsync
 ruby
+rust
 s-nail
 sbxkb
 screenfetch
@@ -265,6 +279,8 @@ vi
 vibrancy-icons-teal
 viewnior
 vim
+virtualbox
+virtualbox-host-dkms
 vlc
 volumeicon
 vulkan-intel
@@ -304,5 +320,4 @@ xorg-xlsfonts
 xorg-xprop
 xterm
 xz
-yarn
 zensu

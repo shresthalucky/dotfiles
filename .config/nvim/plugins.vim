@@ -39,7 +39,7 @@ Plug 'MaxMEllon/vim-jsx-pretty'
 "Plug 'sainnhe/gruvbox-material'
 "Plug 'numirias/semshi', {'do': ':UpdateRemotePlugins'}
 Plug 'matze/vim-move'
-Plug 'vim-python/python-syntax'
+" Plug 'vim-python/python-syntax'
 "Plug 'neovim/nvim-lspconfig'
 "Plug 'nvim-lua/completion-nvim'
 Plug 'ryanoasis/vim-devicons'
@@ -57,7 +57,7 @@ call plug#end()
 let g:NERDSpaceDelims = 1
 let g:NERDTrimTrailingWhitespace = 1
 
-" let g:javascript_plugin_jsdoc = 1
+let g:javascript_plugin_jsdoc = 1
 let g:python_highlight_all = 1
 
 let g:vim_json_syntax_conceal = 0
