@@ -302,6 +302,7 @@ exec --no-startup-id nm-applet
 exec --no-startup-id xfce4-power-manager
 exec --no-startup-id pamac-tray
 exec --no-startup-id clipit
+exec --no-startup-id udiskie
 # exec --no-startup-id blueman-applet
 # exec_always --no-startup-id sbxkb
 #exec --no-startup-id start_conky_maia
@@ -319,6 +320,7 @@ exec --no-startup-id libinput-gestures-setup start
 exec --no-startup-id xinput set-prop "DLLC6B2:00 06CB:75BF Touchpad" "libinput Natural Scrolling Enabled" 1
 
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+
 
 # Color palette used for the terminal ( ~/.Xresources file )
 # Colors are gathered based on the documentation:

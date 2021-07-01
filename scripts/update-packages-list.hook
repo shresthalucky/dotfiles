@@ -1,0 +1,13 @@
+# Update list of installed packages
+
+[Trigger]
+Operation = Install
+Operation = Upgrade
+Operation = Remove
+Type = Package
+Target = *
+
+[Action]
+Description = Updating list of packages...
+When = PostTransaction
+Exec = /bin/sh -c 'pacman -Qqen > /home/lucky/.pkg_arch.txt && pacman -Qqem > /home/lucky/.pkg_aur.txt'

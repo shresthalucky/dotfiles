@@ -1,0 +1,12 @@
+google-chrome
+gruvbox-material-gtk-theme-git
+gruvbox-material-icon-theme-git
+i3exit
+libinput-gestures
+neovim-nightly-bin
+nerd-fonts-jetbrains-mono
+paru
+pfetch-git
+polybar
+teams
+zoom

@@ -32,7 +32,7 @@ set -U fish_pager_color_progress    'brwhite' '--background=cyan'
 # pfetch variables
 # set -gx PF_INFO "ascii title os host kernel uptime pkgs memory"
 set -gx PF_INFO "ascii title os host kernel uptime pkgs de"
-set -gx PF_ASCII "linux"
+set -gx PF_ASCII "arch"
 # set -gx PF_ALIGN "20"
 
 # FZF exports
