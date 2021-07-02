@@ -1,3 +1,4 @@
+aria2
 audacity
 autoconf
 automake
@@ -9,6 +10,8 @@ dosfstools
 dunst
 efibootmgr
 fakeroot
+feh
+file-roller
 fish
 flameshot
 flex
@@ -22,6 +25,7 @@ htop
 i3-gaps
 i3status
 kitty
+libreoffice-fresh
 lightdm
 lightdm-gtk-greeter
 lightdm-gtk-greeter-settings
@@ -31,6 +35,7 @@ lsd
 lxappearance
 m4
 make
+mesa-demos
 mtools
 network-manager-applet
 networkmanager
@@ -54,6 +59,7 @@ ripgrep
 rofi
 rofimoji
 sudo
+telegram-desktop
 texinfo
 ttf-bitstream-vera
 ttf-croscore
