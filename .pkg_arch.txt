@@ -55,6 +55,7 @@ polkit-gnome
 pulseaudio
 pulseaudio-alsa
 redshift
+reflector
 ripgrep
 rofi
 rofimoji
@@ -73,6 +74,7 @@ ufw
 unzip
 viewnior
 vim
+vlc
 volumeicon
 wget
 which

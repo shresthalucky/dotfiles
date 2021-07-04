@@ -23,7 +23,7 @@ source $HOME/.config/nvim/coc-extensions.vim
 source $HOME/.config/nvim/coc.vim
 
 "nvim-lspconfig
-"source $HOME/.config/nvim/lsp.vim
+" source $HOME/.config/nvim/lsp.vim
 
 "Mappings
 source $HOME/.config/nvim/mappings.vim

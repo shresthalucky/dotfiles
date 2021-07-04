@@ -40,8 +40,8 @@ Plug 'MaxMEllon/vim-jsx-pretty'
 "Plug 'numirias/semshi', {'do': ':UpdateRemotePlugins'}
 Plug 'matze/vim-move'
 " Plug 'vim-python/python-syntax'
-"Plug 'neovim/nvim-lspconfig'
-"Plug 'nvim-lua/completion-nvim'
+" Plug 'neovim/nvim-lspconfig'
+" Plug 'nvim-lua/completion-nvim'
 Plug 'ryanoasis/vim-devicons'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'

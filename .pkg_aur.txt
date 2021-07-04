@@ -11,5 +11,6 @@ pfetch-git
 polybar
 spotify
 teams
+timeshift-bin
 visual-studio-code-bin
 zoom
