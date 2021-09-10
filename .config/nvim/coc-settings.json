@@ -19,5 +19,6 @@
   "prettier.semi": true,
   "prettier.tabWidth": 2,
   "prettier.arrowParens": "always",
-  "prettier.trailingComma": "all"
+  "prettier.trailingComma": "all",
+  "clangd.path": "/home/lucky/.config/coc/extensions/coc-clangd-data/install/12.0.1/clangd_12.0.1/bin/clangd"
 }

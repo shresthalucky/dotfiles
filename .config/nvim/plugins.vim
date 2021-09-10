@@ -18,7 +18,7 @@ Plug 'preservim/nerdtree'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'scrooloose/nerdcommenter'
 Plug 'tpope/vim-surround'
-"Plug 'tpope/vim-obsession'
+Plug 'tpope/vim-obsession'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'jiangmiao/auto-pairs'
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
@@ -52,11 +52,13 @@ Plug 'heavenshell/vim-jsdoc', {
 \}
 " Plug 'sheerun/vim-polyglot'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
-Plug 'lambdalisue/suda.vim'
+Plug 'lambdalisue/suda.vim',
+Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 call plug#end()
 
 let g:NERDSpaceDelims = 1
 let g:NERDTrimTrailingWhitespace = 1
+let g:NERDDefaultAlign = 'left'
 
 let g:javascript_plugin_jsdoc = 1
 let g:python_highlight_all = 1
@@ -71,3 +73,4 @@ require'nvim-treesitter.configs'.setup {
   },
 }
 EOF
+

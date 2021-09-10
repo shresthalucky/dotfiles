@@ -36,12 +36,13 @@ set -gx PF_ASCII "arch"
 # set -gx PF_ALIGN "20"
 
 # FZF exports
-set -gx FZF_DEFAULT_COMMAND 'rg --files --no-ignore-vcs --fixed-strings --hidden --smart-case --glob "!{node_modules/*,.git/*}"'
+set -gx FZF_DEFAULT_COMMAND 'rg --files --column --no-ignore-vcs --fixed-strings --hidden --smart-case --glob "!{node_modules/*,.git/*}"'
 set -gx FZF_DEFAULT_OPTS    '--height=50% --min-height=15 --reverse --border'
 set -gx FZF_CTRL_T_COMMAND  $FZF_DEFAULT_COMMAND
 
 # bat as manpager
 set -x MANPAGER "sh -c 'col -bx | bat -l man -p'"
+# set -x MANPAGER "sh -c 'col -bx | nvim'"
 
 alias ls="lsd"
 alias tree="lsd --tree"
@@ -51,6 +52,7 @@ alias c="clear"
 alias fonts="kitty + list-fonts --psnames"
 alias cat="bat"
 alias nc="ncmpcpp"
+alias jk="history | head -n+10 | tail -r | gitjk_cmd"
 
 # starship
 starship init fish | source

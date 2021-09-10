@@ -22,9 +22,10 @@ x-scheme-handler/msteams=teams.desktop
 video/mp4=vlc.desktop
 video/x-matroska=vlc.desktop
 x-scheme-handler/webcal=google-chrome.desktop
-x-scheme-handler/tg=userapp-Telegram Desktop-ENMU50.desktop
+x-scheme-handler/tg=userapp-Telegram Desktop-8Q6150.desktop
 x-scheme-handler/viber=viber.desktop
 video/x-msvideo=vlc.desktop
+x-scheme-handler/notion=notion-app.desktop
 
 [Added Associations]
 x-scheme-handler/http=exo-web-browser.desktop;
@@ -48,7 +49,7 @@ inode/directory=exo-file-manager.desktop;
 x-scheme-handler/trash=exo-file-manager.desktop;
 video/mp4=vlc.desktop;
 video/x-matroska=vlc.desktop;
-x-scheme-handler/tg=userapp-Telegram Desktop-J3U6U0.desktop;userapp-Telegram Desktop-ENMU50.desktop;
+x-scheme-handler/tg=userapp-Telegram Desktop-J3U6U0.desktop;userapp-Telegram Desktop-ENMU50.desktop;userapp-Telegram Desktop-8Q6150.desktop;
 application/x-java-archive=java.desktop;
 video/x-msvideo=vlc.desktop;
 

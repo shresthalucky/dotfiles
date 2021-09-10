@@ -16,12 +16,12 @@ indent_size = 4
 indent_style = space
 indent_size = 4
 
-[*.{js,ts,jsx,tsx,json}]
+[*.{js,ts,jsx,tsx,json,yml}]
 indent_style = space
 indent_size = 2
 
 [*.{diff,md}]
 trim_trailing_whitespace = false
 
-[*.{config}]
+[*.{config,conf}]
 indent_size = 2
