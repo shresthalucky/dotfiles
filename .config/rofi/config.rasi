@@ -56,7 +56,7 @@ configuration {
 /*	window-format: "{w}    {c}   {t}";*/
 /*	click-to-exit: true;*/
 /*	show-match: true;*/
-  theme: "~/.config/rofi/themes/gruvbox-dark-hard.rasi";
+  /* theme: "~/.config/rofi/themes/gruvbox-dark-hard.rasi"; */
 /*	color-normal: ;*/
 /*	color-urgent: ;*/
 /*	color-active: ;*/
@@ -151,3 +151,5 @@ configuration {
 /*	me-accept-entry: "MouseDPrimary";*/
 /*	me-accept-custom: "Control+MouseDPrimary";*/
 }
+
+@theme "~/.config/rofi/themes/gruvbox-dark-hard.rasi"

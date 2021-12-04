@@ -6,6 +6,10 @@
    Modified: Mon Feb 12 2018 06:06:47 PST -0800
    ========================================================================== */
 
+* {
+	radius: 4px;
+}
+
 window {
     background-color: @background;
     border:           0px;
@@ -38,7 +42,8 @@ listview {
 
 element {
     border:  0;
-    padding: 4px 12px;
+    padding: 6px 12px;
+    border-radius: @radius;
 }
 
 element.normal.normal, element.alternate.normal {

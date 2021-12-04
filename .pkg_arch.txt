@@ -12,11 +12,13 @@ bison
 blueman
 bluez
 bluez-utils
+bspwm
 btrfs-progs
 cheese
 conky
 dconf-editor
 deluge-gtk
+discord
 docker
 docker-compose
 dosfstools
@@ -47,6 +49,7 @@ httpie
 i3-gaps
 i3status
 inetutils
+intel-gpu-tools
 intel-ucode
 jdk-openjdk
 kitty
@@ -75,7 +78,6 @@ noto-fonts
 noto-fonts-emoji
 ntfs-3g
 obs-studio
-okular
 openssh
 os-prober
 patch
@@ -86,8 +88,10 @@ pigz
 pkgconf
 playerctl
 polkit-gnome
+powertop
 pulseaudio
 pulseaudio-alsa
+pulseaudio-bluetooth
 pulseaudio-equalizer-ladspa
 pv
 radeontop
@@ -99,6 +103,7 @@ rofi
 rofimoji
 rubygems
 sudo
+sxhkd
 syncthing
 tamsyn-font
 telegram-desktop
@@ -133,6 +138,7 @@ xf86-video-intel
 xfce4-power-manager
 xorg-server
 xorg-twm
+xorg-xfd
 xorg-xfontsel
 xorg-xhost
 xorg-xinit
@@ -140,5 +146,3 @@ xorg-xinput
 xorg-xkill
 xorg-xlsfonts
 xorg-xprop
-zathura
-zathura-pdf-mupdf

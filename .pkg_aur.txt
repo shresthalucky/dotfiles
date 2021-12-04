@@ -1,8 +1,9 @@
+betterlockscreen
 brave-bin
 google-chrome
 gruvbox-material-gtk-theme-git
 gruvbox-material-icon-theme-git
-i3exit
+hadoop
 libinput-gestures
 neovim-nightly-bin
 nerd-fonts-jetbrains-mono
@@ -13,12 +14,15 @@ polybar
 postman-bin
 python38
 qemu-user-static-bin
+radeon-profile-daemon-git
+radeon-profile-git
+rocm-smi-lib64
 rpi-imager
+spicetify-cli
 spotify
 stacer
 stremio
 teams
-timeshift
 ventoy-bin
 visual-studio-code-bin
 zoom

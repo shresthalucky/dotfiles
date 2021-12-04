@@ -10,7 +10,7 @@ run sxhkd
 run nm-applet
 run xfce4-power-manager
 run pamac-tray
-run clipit
+# run clipit
 run volumeicon
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 
