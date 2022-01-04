@@ -27,6 +27,8 @@ font -misc-tamsyn-medium-r-normal-*-14-*-*-*-*-*-*-*
 # Use Mouse+$mod to drag floating windows
 floating_modifier $mod
 
+border_radius 8
+
 # start a terminal
 #bindsym $mod+Return exec terminal
 bindsym $mod+Return exec kitty
@@ -302,7 +304,7 @@ mode "resize" {
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 
 # exec --no-startup-id nitrogen --save --set-zoom-fillHOME/wallpapers/landscape-low-poly-minimalist-minimalism.jpg
-exec --no-startup-id nitrogen --restore; sleep 1; picom -b
+exec --no-startup-id nitrogen --restore; sleep 1; picom -b --experimental-backends
 #exec --no-startup-id manjaro-hello
 exec --no-startup-id nm-applet
 exec --no-startup-id xfce4-power-manager
@@ -326,7 +328,6 @@ exec --no-startup-id libinput-gestures-setup start
 exec --no-startup-id xinput set-prop "DLLC6B2:00 06CB:75BF Touchpad" "libinput Natural Scrolling Enabled" 1
 
 exec_always --no-startup-id fc-cache -f
-
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 

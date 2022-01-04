@@ -52,8 +52,9 @@ Plug 'heavenshell/vim-jsdoc', {
 \}
 " Plug 'sheerun/vim-polyglot'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
-Plug 'lambdalisue/suda.vim',
+Plug 'lambdalisue/suda.vim'
 Plug 'mg979/vim-visual-multi', {'branch': 'master'}
+Plug 'github/copilot.vim'
 call plug#end()
 
 let g:NERDSpaceDelims = 1
