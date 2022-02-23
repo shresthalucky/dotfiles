@@ -26,10 +26,13 @@ x-scheme-handler/tg=userapp-Telegram Desktop-8Q6150.desktop
 x-scheme-handler/viber=viber.desktop
 video/x-msvideo=vlc.desktop
 x-scheme-handler/notion=notion-app.desktop
+x-scheme-handler/about=google-chrome.desktop
+x-scheme-handler/unknown=google-chrome.desktop
+x-scheme-handler/eclipse+command=_usr_lib_dbeaver_.desktop
 
 [Added Associations]
-x-scheme-handler/http=exo-web-browser.desktop;
-x-scheme-handler/https=exo-web-browser.desktop;
+x-scheme-handler/http=xfce4-web-browser.desktop;
+x-scheme-handler/https=xfce4-web-browser.desktop;
 x-scheme-handler/ftp=google-chrome.desktop;
 x-scheme-handler/chrome=google-chrome.desktop;
 text/html=google-chrome.desktop;
@@ -53,8 +56,6 @@ x-scheme-handler/tg=userapp-Telegram Desktop-J3U6U0.desktop;userapp-Telegram Des
 application/x-java-archive=java.desktop;
 video/x-msvideo=vlc.desktop;
 
-[Removed Associations]
-
 [Desktop Entry]
 Name=Java
 Comment=Java
@@ -66,3 +67,4 @@ X-MultipleArgs=false
 Type=Application
 MimeType=application/x-java-archive
 StartupNotify=true
+

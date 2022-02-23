@@ -69,3 +69,7 @@ nmap <Leader>gs :Gstatus<CR>
 nmap dv :Gvdiff!<CR>
 nmap gf :diffget //2<CR>
 nmap gj :diffget //3<CR>
+
+" Indentation
+vnoremap <Tab> > gv
+vnoremap <S-Tab> < gv

@@ -54,5 +54,7 @@ alias cat="bat"
 alias nc="ncmpcpp"
 alias jk="history | head -n+10 | tail -r | gitjk_cmd"
 
+alias icat="kitty +kitten icat"
+
 # starship
 starship init fish | source

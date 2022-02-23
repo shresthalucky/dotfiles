@@ -1,4 +1,4 @@
-syntax enable             " enable syntax highlighting
+" syntax enable             " enable syntax highlighting
 
 set termguicolors         " Enables 24-bit RGB color
 set hidden                " Keep buffer
@@ -21,6 +21,9 @@ set ignorecase            " Ignore case in search patterns
 set smartcase             " Override the 'ignorecase' option if the search pattern contains uppercase characters
 "set signcolumn=yes        " display signs column
 set colorcolumn=80        "set line at column number
+
+set statusline+=%{ObsessionStatus()}
+
 
 let mapleader = "\<space>"
 

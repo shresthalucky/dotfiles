@@ -3,9 +3,10 @@ brave-bin
 google-chrome
 gruvbox-material-gtk-theme-git
 gruvbox-material-icon-theme-git
-i3-gaps-rounded-git
+howdy
 libinput-gestures
-neovim-nightly-bin
+linux-enable-ir-emitter
+mongodb-compass
 nerd-fonts-jetbrains-mono
 notion-app
 paru
@@ -13,6 +14,7 @@ pfetch-git
 picom-git
 polybar
 postman-bin
+python36
 python38
 python39
 qemu-user-static-bin
@@ -20,6 +22,7 @@ radeon-profile-daemon-git
 radeon-profile-git
 rocm-smi-lib64
 rpi-imager
+slack-desktop
 spicetify-cli
 spotify
 stacer
@@ -27,4 +30,5 @@ stremio
 teams
 ventoy-bin
 visual-studio-code-bin
+woeusb-gui
 zoom
