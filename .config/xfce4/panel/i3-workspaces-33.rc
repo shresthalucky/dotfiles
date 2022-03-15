@@ -1,0 +1,11 @@
+normal_color=rgb(94,92,100)
+focused_color=rgb(246,211,45)
+urgent_color=rgb(237,51,59)
+mode_color=rgb(255,0,0)
+visible_color=rgb(94,92,100)
+strip_workspace_numbers=true
+auto_detect_outputs=true
+output=eDP1
+use_css=false
+css=.workspace { }\n.workspace.visible { }\n.workspace.focused { font-weight: bold; }\n.workspace.urgent { color: red; }\n.binding-mode { }\n
+

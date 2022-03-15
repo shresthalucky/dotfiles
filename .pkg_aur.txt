@@ -7,6 +7,7 @@ howdy
 libinput-gestures
 linux-enable-ir-emitter
 mongodb-compass
+mugshot
 nerd-fonts-jetbrains-mono
 notion-app
 paru
@@ -31,4 +32,5 @@ teams
 ventoy-bin
 visual-studio-code-bin
 woeusb-gui
+xfce4-i3-workspaces-plugin-git
 zoom

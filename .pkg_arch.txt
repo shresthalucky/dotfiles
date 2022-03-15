@@ -20,6 +20,7 @@ conky
 dbeaver
 dconf-editor
 deluge-gtk
+dhclient
 discord
 docker
 docker-compose
@@ -37,6 +38,7 @@ filezilla
 fish
 flameshot
 flex
+foliate
 fzf
 garcon
 gcc
@@ -60,6 +62,7 @@ jdk8-openjdk
 jre8-openjdk
 kitty
 libreoffice-fresh
+libvncserver
 lightdm
 lightdm-gtk-greeter
 lightdm-gtk-greeter-settings
@@ -93,18 +96,18 @@ obs-studio
 openssh
 openvpn
 os-prober
+papirus-icon-theme
 parole
 patch
 pavucontrol
 pcmanfm
 pigz
+pipewire-pulse
 pkgconf
 playerctl
 polkit-gnome
 powertop
-pulseaudio
 pulseaudio-alsa
-pulseaudio-bluetooth
 pulseaudio-equalizer-ladspa
 pv
 python-pip
@@ -124,6 +127,7 @@ sxhkd
 syncthing
 tamsyn-font
 telegram-desktop
+terminus-font
 texinfo
 thunar
 thunar-archive-plugin
@@ -144,11 +148,11 @@ unzip
 v4l2loopback-dkms
 viewnior
 vim
-virtualbox
 vlc
 volumeicon
 wget
 which
+wireplumber
 wmctrl
 xautolock
 xbindkeys
@@ -207,3 +211,5 @@ xorg-xinput
 xorg-xkill
 xorg-xlsfonts
 xorg-xprop
+zathura
+zathura-pdf-mupdf
