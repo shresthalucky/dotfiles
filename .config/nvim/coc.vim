@@ -159,3 +159,6 @@ nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list.
 nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 
+augroup JsonToJsonc
+    autocmd! FileType json set filetype=jsonc
+augroup END

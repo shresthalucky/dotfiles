@@ -6,11 +6,22 @@
     <value type="int" value="1"/>
     <property name="dark-mode" type="bool" value="true"/>
     <property name="panel-1" type="empty">
-      <property name="position" type="string" value="p=6;x=960;y=540"/>
-      <property name="length" type="uint" value="100"/>
-      <property name="position-locked" type="bool" value="true"/>
+      <property name="background-rgba" type="array">
+        <value type="double" value="0.100000"/>
+        <value type="double" value="0.049333"/>
+        <value type="double" value="0.049333"/>
+        <value type="double" value="1.000000"/>
+      </property>
+      <property name="background-style" type="uint" value="1"/>
+      <property name="disable-struts" type="bool" value="false"/>
+      <property name="enter-opacity" type="uint" value="100"/>
       <property name="icon-size" type="uint" value="0"/>
-      <property name="size" type="uint" value="24"/>
+      <property name="leave-opacity" type="uint" value="100"/>
+      <property name="length" type="uint" value="100"/>
+      <property name="length-adjust" type="bool" value="true"/>
+      <property name="mode" type="uint" value="0"/>
+      <property name="nrows" type="uint" value="1"/>
+      <property name="output-name" type="string" value="Automatic"/>
       <property name="plugin-ids" type="array">
         <value type="int" value="13"/>
         <value type="int" value="19"/>
@@ -20,7 +31,7 @@
         <value type="int" value="4"/>
         <value type="int" value="2"/>
         <value type="int" value="16"/>
-        <value type="int" value="33"/>
+        <value type="int" value="17"/>
         <value type="int" value="28"/>
         <value type="int" value="26"/>
         <value type="int" value="7"/>
@@ -34,74 +45,72 @@
         <value type="int" value="3"/>
         <value type="int" value="5"/>
       </property>
-      <property name="disable-struts" type="bool" value="false"/>
-      <property name="background-style" type="uint" value="0"/>
-      <property name="nrows" type="uint" value="1"/>
-      <property name="length-adjust" type="bool" value="true"/>
-      <property name="leave-opacity" type="uint" value="100"/>
-      <property name="enter-opacity" type="uint" value="100"/>
-      <property name="mode" type="uint" value="0"/>
-      <property name="background-rgba" type="array">
-        <value type="double" value="0.100000"/>
-        <value type="double" value="0.049333"/>
-        <value type="double" value="0.049333"/>
-        <value type="double" value="1.000000"/>
-      </property>
-      <property name="output-name" type="string" value="Primary"/>
+      <property name="position" type="string" value="p=6;x=960;y=15"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="size" type="uint" value="24"/>
+      <property name="span-monitors" type="bool" value="true"/>
     </property>
   </property>
   <property name="plugins" type="empty">
-    <property name="plugin-2" type="string" value="tasklist">
-      <property name="grouping" type="uint" value="0"/>
-      <property name="flat-buttons" type="bool" value="true"/>
-      <property name="sort-order" type="uint" value="4"/>
-      <property name="switch-workspace-on-unminimize" type="bool" value="true"/>
-      <property name="show-wireframes" type="bool" value="false"/>
-      <property name="include-all-workspaces" type="bool" value="false"/>
-      <property name="show-only-minimized" type="bool" value="false"/>
-      <property name="show-handle" type="bool" value="true"/>
-      <property name="show-labels" type="bool" value="true"/>
+    <property name="plugin-1" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
     </property>
-    <property name="plugin-6" type="string" value="systray">
-      <property name="square-icons" type="bool" value="true"/>
-      <property name="known-legacy-items" type="array">
-        <value type="string" value="notes"/>
-        <value type="string" value="bluetooth disabled"/>
-        <value type="string" value="networkmanager applet"/>
+    <property name="plugin-10" type="string" value="fsguard"/>
+    <property name="plugin-11" type="string" value="systemload">
+      <property name="cpu" type="empty">
+        <property name="color" type="array">
+          <value type="double" value="0.964706"/>
+          <value type="double" value="0.827451"/>
+          <value type="double" value="0.176471"/>
+          <value type="double" value="1.000000"/>
+        </property>
+        <property name="enabled" type="bool" value="true"/>
       </property>
-      <property name="known-items" type="array">
-        <value type="string" value="flameshot"/>
-        <value type="string" value="blueman"/>
+      <property name="memory" type="empty">
+        <property name="color" type="array">
+          <value type="double" value="0.752941"/>
+          <value type="double" value="0.749020"/>
+          <value type="double" value="0.737255"/>
+          <value type="double" value="1.000000"/>
+        </property>
       </property>
-      <property name="single-row" type="bool" value="true"/>
-      <property name="hidden-items" type="array">
+      <property name="network" type="empty">
+        <property name="enabled" type="bool" value="false"/>
       </property>
-      <property name="menu-is-primary" type="bool" value="false"/>
-      <property name="icon-size" type="int" value="0"/>
-      <property name="hidden-legacy-items" type="array">
+      <property name="swap" type="empty">
+        <property name="enabled" type="bool" value="false"/>
       </property>
-      <property name="symbolic-icons" type="bool" value="false"/>
-      <property name="hide-new-items" type="bool" value="false"/>
+      <property name="timeout" type="uint" value="1000"/>
+      <property name="uptime" type="empty">
+        <property name="enabled" type="bool" value="false"/>
+      </property>
     </property>
-    <property name="plugin-9" type="string" value="power-manager-plugin"/>
     <property name="plugin-12" type="string" value="clock">
-      <property name="mode" type="uint" value="2"/>
       <property name="digital-format" type="string" value="%I:%M %p"/>
+      <property name="mode" type="uint" value="2"/>
     </property>
     <property name="plugin-13" type="string" value="whiskermenu"/>
+    <property name="plugin-15" type="string" value="separator">
+      <property name="expand" type="bool" value="false"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
     <property name="plugin-16" type="string" value="separator">
       <property name="expand" type="bool" value="true"/>
       <property name="style" type="uint" value="0"/>
     </property>
-    <property name="plugin-1" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
-    </property>
-    <property name="plugin-3" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
-    </property>
-    <property name="plugin-7" type="string" value="netload"/>
     <property name="plugin-19" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-2" type="string" value="tasklist">
+      <property name="flat-buttons" type="bool" value="true"/>
+      <property name="grouping" type="uint" value="0"/>
+      <property name="include-all-workspaces" type="bool" value="false"/>
+      <property name="show-handle" type="bool" value="true"/>
+      <property name="show-labels" type="bool" value="true"/>
+      <property name="show-only-minimized" type="bool" value="false"/>
+      <property name="show-wireframes" type="bool" value="false"/>
+      <property name="sort-order" type="uint" value="4"/>
+      <property name="switch-workspace-on-unminimize" type="bool" value="true"/>
     </property>
     <property name="plugin-23" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
@@ -113,55 +122,90 @@
       <property name="style" type="uint" value="0"/>
     </property>
     <property name="plugin-28" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
       <property name="expand" type="bool" value="false"/>
+      <property name="style" type="uint" value="0"/>
     </property>
-    <property name="plugin-33" type="string" value="i3-workspaces"/>
+    <property name="plugin-3" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
     <property name="plugin-4" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
     </property>
-    <property name="plugin-11" type="string" value="systemload">
-      <property name="uptime" type="empty">
-        <property name="enabled" type="bool" value="false"/>
-      </property>
-      <property name="timeout" type="uint" value="1000"/>
-      <property name="cpu" type="empty">
-        <property name="enabled" type="bool" value="true"/>
-        <property name="color" type="array">
-          <value type="double" value="0.964706"/>
-          <value type="double" value="0.827451"/>
-          <value type="double" value="0.176471"/>
-          <value type="double" value="1.000000"/>
-        </property>
-      </property>
-      <property name="swap" type="empty">
-        <property name="enabled" type="bool" value="false"/>
-      </property>
-      <property name="network" type="empty">
-        <property name="enabled" type="bool" value="false"/>
-      </property>
-      <property name="memory" type="empty">
-        <property name="color" type="array">
-          <value type="double" value="0.752941"/>
-          <value type="double" value="0.749020"/>
-          <value type="double" value="0.737255"/>
-          <value type="double" value="1.000000"/>
-        </property>
-      </property>
-    </property>
-    <property name="plugin-8" type="string" value="pulseaudio">
-      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="enable-wnck" type="bool" value="false"/>
-      <property name="mpris-players" type="string" value=""/>
-      <property name="blacklisted-players" type="string" value=""/>
-      <property name="enable-multimedia-keys" type="bool" value="false"/>
-      <property name="enable-mpris" type="bool" value="false"/>
-    </property>
     <property name="plugin-5" type="string" value="notification-plugin"/>
-    <property name="plugin-10" type="string" value="fsguard"/>
-    <property name="plugin-15" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
-      <property name="expand" type="bool" value="false"/>
+    <property name="plugin-6" type="string" value="systray">
+      <property name="hidden-items" type="array">
+      </property>
+      <property name="hidden-legacy-items" type="array">
+      </property>
+      <property name="hide-new-items" type="bool" value="false"/>
+      <property name="icon-size" type="int" value="0"/>
+      <property name="known-items" type="array">
+        <value type="string" value="zoom"/>
+        <value type="string" value="stacer"/>
+        <value type="string" value="TelegramDesktop"/>
+        <value type="string" value="Stremio"/>
+        <value type="string" value="flameshot"/>
+        <value type="string" value="Slack1"/>
+        <value type="string" value="blueman"/>
+      </property>
+      <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “pinnacle 2” active: pinnacle 2 (48%)"/>
+        <value type="string" value="wi-fi network connection “pinnacle 2” active: pinnacle 2 (82%)"/>
+        <value type="string" value="wi-fi network connection “pinnacle 2 1” active: pinnacle 2 (85%)"/>
+        <value type="string" value="wi-fi network connection “pinnacle 2 1” active: pinnacle 2 (89%)"/>
+        <value type="string" value="wi-fi network connection “pinnacle 2 1” active: pinnacle 2 (88%)"/>
+        <value type="string" value="wi-fi network connection “pinnacle 2” active: pinnacle 2 (80%)"/>
+        <value type="string" value="wi-fi network connection “pinnacle 2” active: pinnacle 2 (65%)"/>
+        <value type="string" value="wi-fi network connection “leapfrogomni 1” active: leapfrogomni (70%)"/>
+        <value type="string" value="wi-fi network connection “pinnacle 2 1” active: pinnacle 2 (82%)"/>
+        <value type="string" value="wi-fi network connection “pinnacle 2” active: pinnacle 2 (74%)"/>
+        <value type="string" value="wi-fi network connection “pinnacle 2” active: pinnacle 2 (53%)"/>
+        <value type="string" value="wi-fi network connection “pinnacle 2” active: pinnacle 2 (71%)"/>
+        <value type="string" value="wi-fi network connection “pinnacle 2” active: pinnacle 2 (91%)"/>
+        <value type="string" value="wi-fi network connection “leapfrogomni 1” active: leapfrogomni (73%)"/>
+        <value type="string" value="wi-fi network connection “leapfrogomni 1” active: leapfrogomni (71%)"/>
+        <value type="string" value="wi-fi network connection “pinnacle 2” active: pinnacle 2 (85%)"/>
+        <value type="string" value="wi-fi network connection “pinnacle 2” active: pinnacle 2 (89%)"/>
+        <value type="string" value="wi-fi network connection “pinnacle 2” active: pinnacle 2 (81%)"/>
+        <value type="string" value="wi-fi network connection “leapfrogomni 1” active: leapfrogomni (62%)"/>
+        <value type="string" value="wi-fi network connection “pinnacle 2” active: pinnacle 2 (90%)"/>
+        <value type="string" value="wi-fi network connection “pinnacle 2” active: pinnacle 2 (72%)"/>
+        <value type="string" value="wi-fi network connection “pinnacle 2” active: pinnacle 2 (79%)"/>
+        <value type="string" value="wi-fi network connection “pinnacle 2” active: pinnacle 2 (76%)"/>
+        <value type="string" value="wi-fi network connection “pinnacle 2” active: pinnacle 2 (87%)"/>
+        <value type="string" value="configuring wi-fi network connection “pinnacle 2”…"/>
+        <value type="string" value="wi-fi network connection “pinnacle 2” active: pinnacle 2 (88%)"/>
+        <value type="string" value="wi-fi network connection “pinnacle 2” active: pinnacle 2 (78%)"/>
+        <value type="string" value="wi-fi network connection “pinnacle 2” active: pinnacle 2 (57%)"/>
+        <value type="string" value="ethernet network connection “wired connection 1” active"/>
+        <value type="string" value="user authentication required for wi-fi network “leapfrogomni-guest”…"/>
+        <value type="string" value="wi-fi network connection “leapfrogomni” active: leapfrogomni (66%)"/>
+        <value type="string" value="networkmanager applet"/>
+        <value type="string" value="wi-fi network connection “pinnacle 2” active: pinnacle 2 (84%)"/>
+        <value type="string" value="wi-fi network connection “leapfrogomni” active: leapfrogomni (68%)"/>
+        <value type="string" value="wi-fi network connection “pinnacle 2” active: pinnacle 2 (83%)"/>
+        <value type="string" value="wi-fi network connection “pinnacle 2” active: pinnacle 2 (86%)"/>
+        <value type="string" value="blueman"/>
+      </property>
+      <property name="menu-is-primary" type="bool" value="false"/>
+      <property name="single-row" type="bool" value="true"/>
+      <property name="square-icons" type="bool" value="true"/>
+      <property name="symbolic-icons" type="bool" value="false"/>
+    </property>
+    <property name="plugin-7" type="string" value="netload"/>
+    <property name="plugin-8" type="string" value="pulseaudio">
+      <property name="blacklisted-players" type="string" value=""/>
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="enable-mpris" type="bool" value="false"/>
+      <property name="enable-multimedia-keys" type="bool" value="false"/>
+      <property name="enable-wnck" type="bool" value="false"/>
+      <property name="mpris-players" type="string" value="chromium.instance1004;chromium.instance100446;chromium.instance1009;chromium.instance1020;chromium.instance1035;chromium.instance10381;chromium.instance10418;chromium.instance10596;chromium.instance10717;chromium.instance1089;chromium.instance1091;chromium.instance1093;chromium.instance10975;chromium.instance1100;chromium.instance11047;chromium.instance1110;chromium.instance1113;chromium.instance11322;chromium.instance11581;chromium.instance115959;chromium.instance1168;chromium.instance1172;chromium.instance1173;chromium.instance11731;chromium.instance1189;chromium.instance119181;chromium.instance11922;chromium.instance12020;chromium.instance1214;chromium.instance1216;chromium.instance12170;chromium.instance12186;chromium.instance1238;chromium.instance12389;chromium.instance12401;chromium.instance12451;chromium.instance1265;chromium.instance1295;chromium.instance13066;chromium.instance13095;chromium.instance1315;chromium.instance13151;chromium.instance13433;chromium.instance13647;chromium.instance13704;chromium.instance13709;chromium.instance1380;chromium.instance1390;chromium.instance13933;chromium.instance1406;chromium.instance1413;chromium.instance1414;chromium.instance1415;chromium.instance14192;chromium.instance14247;chromium.instance1425;chromium.instance1431;chromium.instance1433;chromium.instance14358;chromium.instance14492;chromium.instance1451;chromium.instance14609;chromium.instance1483;chromium.instance1486;chromium.instance1494;chromium.instance1513;chromium.instance1535;chromium.instance1539;chromium.instance1540;chromium.instance1545;chromium.instance1546;chromium.instance1578;chromium.instance1588;chromium.instance15932;chromium.instance1597;chromium.instance1600;chromium.instance16004;chromium.instance1602;chromium.instance1603;chromium.instance1611;chromium.instance1613;chromium.instance1617;chromium.instance16178;chromium.instance16201;chromium.instance1640;chromium.instance1642;chromium.instance16462;chromium.instance1650;chromium.instance16503;chromium.instance16558;chromium.instance1669;chromium.instance16728;chromium.instance1679;chromium.instance1680;chromium.instance1689;chromium.instance1695;chromium.instance1696;chromium.instance1710;chromium.instance17117;chromium.instance17173;chromium.instance1721;chromium.instance1734;chromium.instance1735;chromium.instance173558;chromium.instance1740;chromium.instance1744;chromium.instance17498;chromium.instance1752;chromium.instance1758;chromium.instance1762;chromium.instance1773;chromium.instance1778;chromium.instance1787;chromium.instance1794;chromium.instance17960;chromium.instance1797;chromium.instance1798;chromium.instance1810;chromium.instance18104;chromium.instance1819;chromium.instance1821;chromium.instance1822;chromium.instance1826;chromium.instance1846;chromium.instance1848;chromium.instance18508;chromium.instance1855;chromium.instance1859;chromium.instance1891;chromium.instance1903;chromium.instance1909;chromium.instance1921;chromium.instance1922;chromium.instance19303;chromium.instance1933;chromium.instance1938;chromium.instance1944;chromium.instance1955;chromium.instance1958;chromium.instance19608;chromium.instance19616;chromium.instance1977;chromium.instance1988;chromium.instance1990;chromium.instance20100;chromium.instance2016;chromium.instance2017;chromium.instance20183;chromium.instance2019;chromium.instance2031;chromium.instance2036;chromium.instance20407;chromium.instance2049;chromium.instance20531;chromium.instance2055;chromium.instance2075;chromium.instance2079;chromium.instance2084;chromium.instance2085;chromium.instance2092;chromium.instance2098;chromium.instance2109;chromium.instance2118;chromium.instance21352;chromium.instance2139;chromium.instance2147;chromium.instance2161;chromium.instance21658;chromium.instance21768;chromium.instance2178;chromium.instance2220;chromium.instance22310;chromium.instance2232;chromium.instance2247;chromium.instance2253;chromium.instance2296;chromium.instance23002;chromium.instance2337;chromium.instance2348;chromium.instance2354;chromium.instance2367;chromium.instance2409;chromium.instance2412;chromium.instance2444;chromium.instance2447;chromium.instance2460;chromium.instance2475;chromium.instance2537;chromium.instance25778;chromium.instance2583;chromium.instance25891;chromium.instance25987;chromium.instance26367;chromium.instance2650;chromium.instance27346;chromium.instance2745;chromium.instance2798;chromium.instance2839;chromium.instance28849;chromium.instance29231;chromium.instance29358;chromium.instance2938;chromium.instance29942;chromium.instance3043;chromium.instance3110;chromium.instance3172;chromium.instance31822;chromium.instance32077;chromium.instance3223;chromium.instance33072;chromium.instance3312;chromium.instance3318;chromium.instance33198;chromium.instance33848;chromium.instance3448;chromium.instance3481;chromium.instance35294;chromium.instance35334;chromium.instance3580;chromium.instance35861;chromium.instance35868;chromium.instance35901;chromium.instance36522;chromium.instance3654;chromium.instance36947;chromium.instance37407;chromium.instance37614;chromium.instance38993;chromium.instance39448;chromium.instance40092;chromium.instance4045;chromium.instance41577;chromium.instance42959;chromium.instance4309;chromium.instance4349;chromium.instance45680;chromium.instance45745;chromium.instance4610;chromium.instance4728;chromium.instance47902;chromium.instance4991;chromium.instance50711;chromium.instance50854;chromium.instance5133;chromium.instance51384;chromium.instance5243;chromium.instance53599;chromium.instance5392;chromium.instance5439;chromium.instance5475;chromium.instance5481;chromium.instance57457;chromium.instance5876;chromium.instance6181;chromium.instance62231;chromium.instance6283;chromium.instance6381;chromium.instance6409;chromium.instance65852;chromium.instance67383;chromium.instance67678;chromium.instance67746;chromium.instance6814;chromium.instance7394;chromium.instance7464;chromium.instance7511;chromium.instance76077;chromium.instance7783;chromium.instance7861;chromium.instance7888;chromium.instance80930;chromium.instance8227;chromium.instance83106;chromium.instance8612;chromium.instance8656;chromium.instance87172;chromium.instance8813;chromium.instance8930;chromium.instance9033;chromium.instance9216;chromium.instance9374;chromium.instance9410;chromium.instance9445;chromium.instance9449;chromium.instance9464;chromium.instance9615;chromium.instance9619;chromium.instance9726;chromium.instance9914;chromium.instance995;spotify;vlc"/>
+    </property>
+    <property name="plugin-9" type="string" value="power-manager-plugin"/>
+    <property name="plugin-17" type="string" value="pager">
+      <property name="rows" type="uint" value="1"/>
+      <property name="miniature-view" type="bool" value="true"/>
+      <property name="numbering" type="bool" value="false"/>
     </property>
   </property>
 </channel>

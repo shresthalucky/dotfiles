@@ -1,4 +1,4 @@
-" syntax enable             " enable syntax highlighting
+syntax enable             " enable syntax highlighting
 
 set termguicolors         " Enables 24-bit RGB color
 set hidden                " Keep buffer

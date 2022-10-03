@@ -10,10 +10,9 @@ application/x-extension-shtml=google-chrome.desktop
 application/xhtml+xml=google-chrome.desktop
 application/x-extension-xhtml=google-chrome.desktop
 application/x-extension-xht=google-chrome.desktop
-image/jpeg=viewnior.desktop;gpicview.desktop;
+image/jpeg=viewnior.desktop
 image/png=viewnior.desktop;gpicview.desktop;
-text/plain=mousepad.desktop
-x-scheme-handler/mailto=userapp-Thunderbird.desktop
+text/plain=org.xfce.mousepad.desktop
 message/rfc822=userapp-Thunderbird.desktop
 application/pdf=org.gnome.Evince.desktop
 application/x-bittorrent=deluge.desktop
@@ -31,6 +30,9 @@ x-scheme-handler/unknown=google-chrome.desktop
 x-scheme-handler/eclipse+command=_usr_lib_dbeaver_.desktop
 inode/directory=xfce4-file-manager.desktop
 x-scheme-handler/trash=xfce4-file-manager.desktop
+text/markdown=org.xfce.mousepad.desktop
+application/x-yaml=org.xfce.mousepad.desktop
+application/json=org.xfce.mousepad.desktop
 
 [Added Associations]
 x-scheme-handler/http=xfce4-web-browser.desktop;
@@ -44,12 +46,12 @@ application/x-extension-shtml=google-chrome.desktop;
 application/xhtml+xml=google-chrome.desktop;
 application/x-extension-xhtml=google-chrome.desktop;
 application/x-extension-xht=google-chrome.desktop;
-image/jpeg=viewnior.desktop;gpicview.desktop;
+image/jpeg=viewnior.desktop;gpicview.desktop;org.xfce.ristretto.desktop;
 image/png=gimp.desktop;viewnior.desktop;gpicview.desktop;
-text/plain=mousepad.desktop;
+text/plain=mousepad.desktop;org.xfce.mousepad.desktop;
 message/rfc822=userapp-Thunderbird.desktop;
 application/pdf=com.github.johnfactotum.Foliate.desktop;epdfview.desktop;
-application/x-bittorrent=deluge.desktop;
+application/x-bittorrent=smartcode-stremio.desktop;deluge.desktop;
 inode/directory=xfce4-file-manager.desktop;
 x-scheme-handler/trash=xfce4-file-manager.desktop;
 video/mp4=vlc.desktop;
@@ -57,6 +59,9 @@ video/x-matroska=vlc.desktop;
 x-scheme-handler/tg=userapp-Telegram Desktop-J3U6U0.desktop;userapp-Telegram Desktop-ENMU50.desktop;userapp-Telegram Desktop-8Q6150.desktop;
 application/x-java-archive=java.desktop;
 video/x-msvideo=vlc.desktop;
+text/markdown=org.xfce.mousepad.desktop;
+application/x-yaml=org.xfce.mousepad.desktop;
+application/json=org.xfce.mousepad.desktop;
 
 [Desktop Entry]
 Name=Java
@@ -69,3 +74,4 @@ X-MultipleArgs=false
 Type=Application
 MimeType=application/x-java-archive
 StartupNotify=true
+

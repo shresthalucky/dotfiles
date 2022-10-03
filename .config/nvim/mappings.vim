@@ -73,3 +73,7 @@ nmap gj :diffget //3<CR>
 " Indentation
 vnoremap <Tab> > gv
 vnoremap <S-Tab> < gv
+
+" Copilot
+imap <silent><script><expr> <A-Tab> copilot#Accept("\<CR>")
+let g:copilot_no_tab_map = v:true

@@ -44,6 +44,14 @@ set -gx FZF_CTRL_T_COMMAND  $FZF_DEFAULT_COMMAND
 set -x MANPAGER "sh -c 'col -bx | bat -l man -p'"
 # set -x MANPAGER "sh -c 'col -bx | nvim'"
 
+# set --universal nvm_default_version v16.14.2
+
+# set -gx AUTH_RSA_PRIVATE_KEY=(cat ~/jwt.local.rsa)
+# set -gx AUTH_RSA_PUBLIC_KEY=(cat ~/jwt.local.rsa.pub)
+
+set -Ux PYENV_ROOT $HOME/.pyenv
+set -U fish_user_paths $PYENV_ROOT/bin $fish_user_paths
+
 alias ls="lsd"
 alias tree="lsd --tree"
 alias vim="nvim"
@@ -58,3 +66,5 @@ alias icat="kitty +kitten icat"
 
 # starship
 starship init fish | source
+
+pyenv init - | source

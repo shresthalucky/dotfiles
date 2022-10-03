@@ -13,9 +13,13 @@
   <property name="applications" type="empty">
     <property name="known_applications" type="array">
       <value type="string" value="blueman"/>
+      <value type="string" value="brave-browser"/>
       <value type="string" value="discord"/>
       <value type="string" value="flameshot"/>
+      <value type="string" value="google-chrome"/>
+      <value type="string" value="kitty"/>
       <value type="string" value="notify-send"/>
+      <value type="string" value="Slack"/>
       <value type="string" value="Spotify"/>
       <value type="string" value="thunar"/>
       <value type="string" value="Xfce volume control"/>

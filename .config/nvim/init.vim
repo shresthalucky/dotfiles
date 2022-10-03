@@ -6,16 +6,24 @@ source $HOME/.config/nvim/plugins.vim
 
 "set gruvbox theme
 set termguicolors
+let g:gruvbox_italic=1
+let g:gruvbox_bold=1
+
+" dark
 set background=dark
 let g:gruvbox_contrast_dark='hard'
-let g:gruvbox_italic=1
-colorscheme gruvbox
 
+" light
+" set background=light
+" let g:gruvbox_contrast_light='soft'
+
+colorscheme gruvbox
 
 " set termguicolors
 " set background=dark
 " let g:gruvbox_material_background = 'hard'
-" colorscheme gruvbox-material
+" let g:gruvbox_italic=1
+" colorscheme gruvbox
 
 "airline
 source $HOME/.config/nvim/airline.vim
