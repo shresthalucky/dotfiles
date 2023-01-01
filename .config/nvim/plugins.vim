@@ -70,6 +70,7 @@ let g:javascript_plugin_jsdoc = 1
 let g:python_highlight_all = 1
 
 let g:vim_json_syntax_conceal = 0
+let g:indentLine_setConceal = 0
 
 lua <<EOF
 
