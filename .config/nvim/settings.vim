@@ -7,7 +7,7 @@ set relativenumber        " Set relative line number
 set number                " Show line number
 set incsearch             " Set incremental search
 set cursorline            " Set highlighting cursor line
-set clipboard=unnamedplus " Copy and paste between clipboard
+set clipboard+=unnamedplus " Copy and paste between clipboard
 set splitbelow            " Horizontal splits will automatically be below
 set splitright            " Vertical splits will automatically be to the right
 set nowrap                " Display long lines as just one line

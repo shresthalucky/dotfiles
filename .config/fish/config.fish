@@ -31,9 +31,10 @@ set -U fish_pager_color_progress    'brwhite' '--background=cyan'
 
 # pfetch variables
 # set -gx PF_INFO "ascii title os host kernel uptime pkgs memory"
-set -gx PF_INFO "ascii title os host kernel uptime pkgs de"
+set -gx PF_INFO "ascii title os host kernel memory pkgs de"
 set -gx PF_ASCII "arch"
 # set -gx PF_ALIGN "20"
+# pfetch
 
 # FZF exports
 set -gx FZF_DEFAULT_COMMAND 'rg --files --column --no-ignore-vcs --fixed-strings --hidden --smart-case --glob "!{node_modules/*,.git/*}"'
@@ -41,10 +42,10 @@ set -gx FZF_DEFAULT_OPTS    '--height=50% --min-height=15 --reverse --border'
 set -gx FZF_CTRL_T_COMMAND  $FZF_DEFAULT_COMMAND
 
 # bat as manpager
-set -x MANPAGER "sh -c 'col -bx | bat -l man -p'"
+# set -x MANPAGER "sh -c 'col -bx | bat -l man -p'"
 # set -x MANPAGER "sh -c 'col -bx | nvim'"
 
-# set --universal nvm_default_version v16.14.2
+set --universal nvm_default_version v18.12.0
 
 # set -gx AUTH_RSA_PRIVATE_KEY=(cat ~/jwt.local.rsa)
 # set -gx AUTH_RSA_PUBLIC_KEY=(cat ~/jwt.local.rsa.pub)
@@ -58,7 +59,7 @@ alias vim="nvim"
 alias vi="nvim"
 alias c="clear"
 alias fonts="kitty + list-fonts --psnames"
-alias cat="bat"
+# alias cat="bat"
 alias nc="ncmpcpp"
 alias jk="history | head -n+10 | tail -r | gitjk_cmd"
 
@@ -67,4 +68,5 @@ alias icat="kitty +kitten icat"
 # starship
 starship init fish | source
 
-pyenv init - | source
+# pyenv init - | source
+# rvm default

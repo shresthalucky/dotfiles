@@ -33,6 +33,7 @@ x-scheme-handler/trash=xfce4-file-manager.desktop
 text/markdown=org.xfce.mousepad.desktop
 application/x-yaml=org.xfce.mousepad.desktop
 application/json=org.xfce.mousepad.desktop
+x-scheme-handler/slack=slack.desktop
 
 [Added Associations]
 x-scheme-handler/http=xfce4-web-browser.desktop;
@@ -46,7 +47,7 @@ application/x-extension-shtml=google-chrome.desktop;
 application/xhtml+xml=google-chrome.desktop;
 application/x-extension-xhtml=google-chrome.desktop;
 application/x-extension-xht=google-chrome.desktop;
-image/jpeg=viewnior.desktop;gpicview.desktop;org.xfce.ristretto.desktop;
+image/jpeg=org.kde.gwenview.desktop;viewnior.desktop;gpicview.desktop;org.xfce.ristretto.desktop;
 image/png=gimp.desktop;viewnior.desktop;gpicview.desktop;
 text/plain=mousepad.desktop;org.xfce.mousepad.desktop;
 message/rfc822=userapp-Thunderbird.desktop;
@@ -74,4 +75,3 @@ X-MultipleArgs=false
 Type=Application
 MimeType=application/x-java-archive
 StartupNotify=true
-
